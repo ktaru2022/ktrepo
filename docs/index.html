@@ -1,14 +1,98 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<title>テストページ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mypage:Under maintenance</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+      .warn {
+        background: #ff7;
+      }
+      .bg {
+        background-image: url("./img/gear10bl.png");
+        background-color:rgba(255,255,255,0.8);
+        background-blend-mode:lighten;
+        background-position: center;
+        background: contain;
+        background-repeat: no-repeat;
+      }
+    </style>
 </head>
 <body>
-<br/>
-<br/>
-これはテストページです。<br/>
-<br/>
-GitHubのチェックに使います。<br/>
-<br/>
-<br/>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/image2-1.jpg" width="30" height="30" class="d-inline-block align-top" alt="crowd4u-logo.png" loading="lazy">
+            Crowd4U: Maintenance Page</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">English</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index_ja.html">Japanese<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav> 
+
+
+    <main class="bd-content bg">
+        <section class="announcement m-3 p-3">
+            <div class="container">
+              <h2 class="display-5 font-weight-bold text-center">Site Maintenance</h2>
+              <p class="text-left ml-md-4">We sincerely apologize for the inconvenience. Currently, this site is undergoing maintenance on the following schedule.</p>
+              <p class="text-left ml-md-4">Thank you for your patience.</p>
+            </div>
+        </section>
+
+        <section class="period ml-5 p-3">
+            <div class="container text-left">
+              <h5 class="display-5 font-weight-bold">The maintenance starts at:</h5>
+              <table class="table-borderless table-responsive table-hover">
+                <tr><td class="text-nowrap">Tokyo (Japan)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">10:00:00JST UTC+9 hours</td></tr>
+                <tr><td class="text-nowrap">Paris (France)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">03:00:00CET UTC+2 hours</td></tr>
+                <tr><td class="text-nowrap">Seattle (U.S.A. - Washington)</td><td class="text-nowrap">Tuesday,</td><td class="text-nowrap">12 July 2022,</td><td class="text-nowrap">18:00:00 PDT UTC-7 hours</td></tr>
+                <tr><td class="text-nowrap">Corresponding UTC (GMT)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">01:00:00</td></tr>
+              </table>
+            </div>
+            <div class="container text-left p-2">
+              <h5 class="display-5 font-weight-bold">and ends at(at the latest):</h5>
+              <table class="table-borderless table-responsive table-hover">
+                <tr><td class="text-nowrap">Tokyo (Japan)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">12:00:00 JST UTC+9 hours</td></tr>
+                <tr><td class="text-nowrap">Paris (France)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">05:00:00 CET UTC+2 hour</td></tr>
+                <tr><td class="text-nowrap">Seattle (U.S.A. - Washington)</td><td class="text-nowrap">Tuesday,</td><td class="text-nowrap">12 July 2022,</td><td class="text-nowrap">20:00:00 PDT UTC-7 hours</td></tr>
+                <tr><td class="text-nowrap">Corresponding UTC (GMT)</td><td class="text-nowrap">Wednesday,</td><td class="text-nowrap">13 July 2022,</td><td class="text-nowrap">03:00:00</td></tr>
+              </table>
+            </div>
+        </section>
+        <!--
+        <div class="container">
+            <p class="mt-4 ml-md-3 text-left">Sorry for inconveniences caused, if any.</p>
+            <p class="ml-md-3 text-left"> Best,</p>
+            <p class="ml-md-3 text-left"> Staff Teams</p>
+        </div>
+        -->
+    </main>
+
+<footer class="py-3 bg-dark">
+  <div class="container">
+    <p class="text-white text-center m-0">&copy; Sample</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

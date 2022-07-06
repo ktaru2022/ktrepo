@@ -1,2 +1,14 @@
-# ktrepo
-repository for test
+# mypage-maintenance
+
+## about
+Mypageページのメンテナンサンプルを管理しているリポジトリです.  
+
+## GitHub Pages
+GitHub PagesというGitHubが提供してる静的webサイトホスティングサービスを用いて公開しています．  
+
+### 編集上の注意
+日時等の変更に際し、mainブランチを直接編集してもかまいません。  
+
+### ディレクトリ構造
+- docs  
+ このディレクトリをホスティングする設定しています．変更しないようにお願いします．  
